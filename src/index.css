@@ -65,6 +65,31 @@ button:focus-visible {
     color: #EB4747;
   }
   button {
+
     background-color: #f9f9f9;
   }
 }
+ .btnMesero {
+  display: flex;
+  
+ }
+ .btnChef {
+  display: flex;
+  margin-top: 11%;
+  margin-left: 75%;
+ }
+
+ .image{
+  display: flex;
+  margin-top: 40%;
+  margin-bottom: 10%;
+  margin-left: -12%;
+ }
+
+ .images{
+  display: flex;
+  margin-top: -70%;
+  margin-bottom: 8%;
+  margin-left: 60%;
+ }
+

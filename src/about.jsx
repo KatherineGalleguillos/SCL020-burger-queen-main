@@ -1,11 +1,12 @@
 import { Link } from "react-router-dom";
-
+import image from "./images/logo.png";
 function About() {
     return (
       <>
         <main>
-          <h1>Tostado Miels</h1>
-          <h2>Pasteleria y cafetería</h2>
+          <div>
+            <img src={image}/>
+          </div>
           <p>
             ¡Bienvenidos! Esperamos que tengas un excelente turno de trabajo
           </p>

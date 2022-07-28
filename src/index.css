@@ -93,3 +93,8 @@ button:focus-visible {
   margin-left: 60%;
  }
 
+ .btnChefVolver {
+ display: flex;
+ margin-bottom: 90%;
+ margin-left: 100%;
+ }

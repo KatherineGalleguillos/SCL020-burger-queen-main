@@ -1,7 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import Home from "./home";
-import About from "./about";
-import Chef from "./menuChef";
+import Home from "./routes/Home";
+import SelectRole from "./routes/SelectRole";
+import TakeOrder from "./routes/TakeOrder";
+import Deliver from "./routes/Deliver";
+import Kitchen from "./routes/Kitchen";
 import  './App.css'
 
 
@@ -10,8 +12,11 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="chef" element={<Chef />} />
+        <Route path="/selectRole" element={<SelectRole />} />
+        <Route path="/takeOrder" element={<TakeOrder />} />
+        <Route path="/deliver" element={<Deliver />} />
+        <Route path="/kitchen" element={<Kitchen />} />
+
       </Routes>
     </div>
   )

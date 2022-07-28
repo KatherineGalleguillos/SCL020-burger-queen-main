@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import image from "./images/logo.png";
-function About() {
+import image from "../images/logo.png";
+
+const Home = () => {
     return (
       <>
         <main>
@@ -13,11 +14,11 @@ function About() {
         </main>
         <nav>
           <button>
-          <Link to="/">Continuar</Link>
+          <Link to="/selectRole">Continuar</Link>
           </button>
         </nav>
       </>
     );
   }
 
-  export default About
+  export default Home;

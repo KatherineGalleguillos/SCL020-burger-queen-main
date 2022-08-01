@@ -1,0 +1,23 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+  display: flex;
+  
+}
+
+#root {
+  background-color: #FCE5E6;
+  margin: 0px;
+  padding: 0px;
+}
+
+.texto {
+  width: 420px;
+  display: flex;
+  margin-left: 300px;
+
+}
+
+
+

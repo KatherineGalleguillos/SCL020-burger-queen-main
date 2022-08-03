@@ -1,0 +1,46 @@
+{
+    "coffe": [
+    {
+      "id": 1,
+      "name": "Capuccino vainilla",
+      "price": "2800",
+      "description": "Café con dulces toques de vainilla"},
+    {
+      "id": 2,
+      "name": "Capuccino",
+      "price": "2500",
+      "description": "Café"},
+    {
+      "id": 3,
+      "name": "Mockachino",
+      "price": "2900",
+      "description": "Café con dulces toques de chocolate"},
+    {
+        "id": 4,
+        "name": "Cortado",
+        "price": "2000",
+        "description": "Café con leche"}
+    ],
+    "cake": [
+        {
+          "id": 1,
+          "name": "Torta tres leches",
+          "price": "3000",
+          "description": "Dulce torta de tres leches"},
+        {
+          "id": 2,
+          "name": "Brownie",
+          "price": "2500",
+          "description": "Brownie de chocolate con nueces"},
+        {
+          "id": 3,
+          "name": "Blondie",
+          "price": "2900",
+          "description": "Dulce de vainilla con chips de chocolate"},
+        {
+            "id": 4,
+            "name": "Carrot cake",
+            "price": "3500",
+            "description": "Torta de zanahoria con frosting de queso de crema"}
+        ]
+} 

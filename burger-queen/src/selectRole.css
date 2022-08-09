@@ -1,0 +1,54 @@
+main {
+    width: 1024px;
+    height: 768px;
+}
+.rol { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.main {
+    display: flex;
+
+}
+   
+.chef {
+    width: 60%;
+    margin-top: 160px;
+    margin-left: 250px;
+    
+
+}
+
+.btnChef {
+    background-color:#FF5757 ;
+    opacity: 60%;
+    width: 150px;
+}
+
+.mesero {
+    margin-top: -100px;
+    width: 60%;
+    margin-left: 300px;
+}
+
+.btnMesero {
+    background-color:#FF5757 ;
+    opacity: 60%;
+    width: 150px;
+    display: flex;
+}
+
+
+img{
+    border-radius: 50%;
+}
+
+button.btnChef {
+    align-items: center;
+}

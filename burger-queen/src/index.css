@@ -1,0 +1,46 @@
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+  :root {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FDD1DB;
+    color: #EB4747;
+  }
+ 
+
+ .btnMesero {
+  display: flex;
+  
+ }
+ .btnChef {
+  display: flex;
+  margin-top: 11%;
+  margin-left: 75%;
+ }
+
+ .image{
+  display: flex;
+  margin-top: 40%;
+  margin-bottom: 10%;
+  margin-left: -12%;
+ }
+
+ .images{
+  display: flex;
+  margin-top: -70%;
+  margin-bottom: 8%;
+  margin-left: 60%;
+ }

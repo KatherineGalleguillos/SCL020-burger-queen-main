@@ -23,7 +23,7 @@ const Navbar = () => {
             </NavLink>
             
             <NavLink to="/deliver">Pedidos para entregar</NavLink>
-            <img src={salir} alt="salir" onClick={ClickSalir} className="salir" to="/"></img>
+            <NavLink to="/">Salir</NavLink>
 
         </div>
     )

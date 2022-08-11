@@ -8,8 +8,7 @@ const SelectRole = () => {
     return (
       
         <main>
-          <section className='rol'>
-            <h1>Selecciona tu rol</h1>
+          <section className='rol'> Selección de Rol
           </section>
           <section className='mesero'>
             <img className="image" src={image}/>

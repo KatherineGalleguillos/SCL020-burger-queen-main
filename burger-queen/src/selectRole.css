@@ -4,13 +4,14 @@ main {
 }
 .rol { 
     display: flex;
-    justify-content: center;
+    font-size: 40px;
+    font-family: sans-serif;
     align-items: center;
+    margin-left: 70%;
+    margin-top: 10%;
+
 }
 
-h1 {
-    font-size: 40px;
-}
 
 .main {
     display: flex;
@@ -19,29 +20,28 @@ h1 {
    
 .chef {
     width: 60%;
-    margin-top: 160px;
-    margin-left: 250px;
+    margin-top: 10px;
+    margin-left: 150px;
     
 
 }
 
 .btnChef {
     background-color:#FF5757 ;
-    opacity: 60%;
-    width: 150px;
+    
 }
 
 .mesero {
     margin-top: -100px;
     width: 60%;
-    margin-left: 300px;
+    margin-left: 400px;
 }
 
 .btnMesero {
     background-color:#FF5757 ;
     opacity: 60%;
     width: 150px;
-    display: flex;
+    height: 40px;
 }
 
 
@@ -50,5 +50,7 @@ img{
 }
 
 button.btnChef {
-    align-items: center;
+    text-align: center;
+    height: 90px;
+    width: 90px;
 }

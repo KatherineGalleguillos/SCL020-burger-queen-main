@@ -1,4 +1,5 @@
 import Navbar from "../components/navbar";
+
 const Deliver = () => {
     return (
       <>
@@ -7,6 +8,7 @@ const Deliver = () => {
           <h1>
             Pedidos por entregar
           </h1>
+          
         
       </>
     );
